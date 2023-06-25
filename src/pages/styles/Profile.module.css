@@ -1,0 +1,136 @@
+.wrapProfile {
+  margin-top: 6rem;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.profileTitlePage {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.mainProfile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5.625rem;
+  width: 100%;
+}
+
+.mainProfile header {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.mainEmailContent {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  font-weight: 700;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+.mainEmailContent span {
+  color: var(--purple-200);
+}
+
+.formProfile {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.emailLabel {
+  display: block;
+  font-family: Roboto , sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.187rem;
+}
+
+.emailInput {
+  background: var(--gray-400);
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: var(--purple-700);
+  font-family: Roboto , sans-serif;
+  font-size: 0.875rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+}
+
+.emailInput:focus {
+  background: var(--gray-300);
+}
+
+.btnChangeEmail {
+  align-items: center;
+  background: var(--purple-500);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: var(--gray-600);
+  cursor: pointer;
+  display: flex;
+  font-family: Roboto , sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  gap: 1rem;
+  height: 2.625rem;
+  justify-content: center;
+  letter-spacing: 0.025em;
+  line-height: 1.187rem;
+  margin-top: 2.25rem;
+  text-transform: uppercase;
+  transition: ease-in 0.3s;
+  width: 100%;
+}
+
+.btnChangeEmail:hover {
+  background-color: var(--purple-700);
+}
+
+.btnChangeEmail:disabled {
+  background: var(--gray-300);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}
+
+.btnLogout {
+  align-items: center;
+  background: var(--red-500);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: var(--gray-600);
+  cursor: pointer;
+  display: flex;
+  font-family: Roboto , sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  gap: 1rem;
+  height: 2.625rem;
+  justify-content: center;
+  letter-spacing: 0.025em;
+  line-height: 1.187rem;
+  margin-top: 2.25rem;
+  text-transform: uppercase;
+  transition: ease-in 0.3s;
+  width: 100%;
+}
+
+.btnLogout:hover {
+  background-color: var(--red-600);
+}

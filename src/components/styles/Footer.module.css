@@ -1,0 +1,30 @@
+.footer {
+  align-items: center;
+  background: var(--purple-900);
+  border-radius: 12px 12px 0 0;
+  bottom: 0;
+  color: white;
+  display: flex;
+  height: 3.75rem;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 2rem;
+  position: fixed;
+  width: 100%;
+}
+
+.btnFooter {
+  background-color: transparent;
+  border: none;
+  color: var(--gray-600);
+  transition: 0.25s ease-in;
+  cursor: pointer;
+}
+
+/* .btnFooter:hover {
+  color: var(--orange-100);
+} */
+
+.btnFooterFilled {
+  color: var(--orange-100);
+}
