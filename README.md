@@ -29,7 +29,7 @@ O projeto consiste em um aplicativo front-end de receitas e é possível realiza
 
   - Use o comando: `git clone git@github.com:Diego-Cordeiro0406/Recipes-app.git`
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd recipes-app`
+    - `cd Recipes-app`
 
   2. Instale as dependências
 
